@@ -569,15 +569,15 @@ class App(ctk.CTk):
         """Saca del remito un tipo cargado, por ejemplo si se eligió un Excel equivocado."""
         nombre = TIPOS_ELEMENTOS[tipo]
         cantidad = plural(len(self.elementos[tipo]), "elemento")
-        if not messagebox.askyesno("Quitar elementos", f"¿Desea quitar {nombre} ({cantidad}) del remito?"):
+        if not messagebox.askyesno("Eliminar elementos", f"¿Desea eliminar {nombre} ({cantidad}) del remito?"):
             return
 
         del self.elementos[tipo]
         self.remito_generado = False
         self._refrescar_elementos()
         self._actualizar_botones()
-        log.info("Se quitó %s (%s)", nombre, cantidad)
-        self.actualizar_estado("ok", f"Se quitó {nombre} del remito ({cantidad})")
+        log.info("Se eliminó %s (%s)", nombre, cantidad)
+        self.actualizar_estado("ok", f"Se eliminó {nombre} del remito ({cantidad})")
 
     def cargar_excel_elementos(self):
         """Carga un Excel: el tipo sale de sus códigos de barras y crea su recuadro."""
