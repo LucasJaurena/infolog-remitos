@@ -1,10 +1,10 @@
 # INFOLOG REMITOS
 
-Aplicación de escritorio desarrollado con asistencia de IA para armar los remitos de préstamos de material de YPF.
-Lee el pedido exportado del sistema de YPF (Excel), asocia el detalle de cada
+Aplicación de escritorio, desarrollada con asistencia de IA, para el armado de los remitos de préstamos y devoluciones de material de YPF.
+Lee el pedido exportado del sistema de YPF en formato (Excel), asocia el detalle de cada
 elemento y genera el remito en PDF listo para imprimir y firmar.
 
-Desarrollada por Lucas Jaurena con para INFOLOG S.R.L.
+Desarrollada por Lucas Jaurena para INFOLOG S.R.L.
 
 ## Uso
 
@@ -147,7 +147,7 @@ Cada Excel de elementos que se carga crea la tarjeta de su tipo.
 ### Remito generado
 | Primera hoja | Cambio de tipo | Firma |
 |---|---|---|
-| ![Primera hoja del remito](/ejemploscapturas/remito_pagina_1.png) | ![Hoja donde empiezan las Coronas](ejemplos/capturas/remito_cambio_de_tipo.png) | ![Bloque de firma](ejemplos/capturas/remito_ultima_pagina.png) |
+| ![Primera hoja del remito](ejemplos/capturas/remito_pagina_1.png) | ![Hoja donde empiezan las Coronas](ejemplos/capturas/remito_cambio_de_tipo.png) | ![Bloque de firma](ejemplos/capturas/remito_ultima_pagina.png) |
 
 ## ¿Le interesa una solución similar?
 Adapto esta herramienta a los formatos y procesos de otras empresas.
