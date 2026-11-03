@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# Pedidos y remitos reales: tienen datos de clientes, no van al repositorio
+*.xlsx
+*.xls
+*.pdf
+
+*.log
+# Excepción: Excel de ejemplo con datos inventados
+!ejemplos/
+!ejemplos/*.xlsx

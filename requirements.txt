@@ -1,0 +1,9 @@
+# Dependencias de INFOLOG REMITOS (versiones probadas).
+# Instalar con: pip install -r requirements.txt
+customtkinter==6.0.0
+Pillow==12.3.0
+openpyxl==3.1.5
+reportlab==5.0.0
+
+# Solo para compilar el .exe
+pyinstaller==6.21.0
