@@ -20,7 +20,7 @@ la que se está queda marcado con un borde amarillo.
    elementos** lee un archivo (una fila por elemento) y crea el recuadro de
    su tipo, que se reconoce por las dos letras de los códigos de barras. Hay
    que cargar un Excel por cada tipo; si se carga otro del mismo tipo,
-   reemplaza al anterior. **Quitar**, en cada recuadro, saca ese tipo del
+   reemplaza al anterior. **Eliminar**, en cada recuadro, saca ese tipo del
    remito (pide confirmación).
 3. **Generar Remito**: se habilita con al menos un tipo cargado. El PDF se
    guarda en la carpeta elegida con **Carpeta de remitos** (por defecto, el
