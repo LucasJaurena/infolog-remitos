@@ -218,7 +218,7 @@ class App(ctk.CTk):
 
         texto(APP_NOMBRE, (50, 5), 28, "bold", COLOR_TEXTO_TITULO)
         texto(f"Versión {APP_VERSION}", 0)
-        texto("Sistema para la confección de remitos\nDesarrollada para INFOLOG SRL", (20, 10))
+        texto("Sistema para la confección de remitos\nCreada para INFOLOG SRL", (20, 10))
         texto(f"Desarrollado por {APP_AUTOR}  -  {APP_CONTACTO}", 0, tamano=13)
 
         # Guía de los tres pasos, con los mismos colores que sus botones del menú.
